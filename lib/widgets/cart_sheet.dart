@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/cart_provider.dart';
@@ -103,8 +104,14 @@ class _CartSheetState extends State<CartSheet> {
                       children: [
                         ClipRRect(
                           borderRadius: BorderRadius.circular(30),
-                          child: Image.network(
-                            item.item.image,
+                          // child: Image.network(
+                          //   item.item.image,
+                          //   height: 56,
+                          //   width: 56,
+                          //   fit: BoxFit.cover,
+                          // ),
+                          child: CachedNetworkImage(
+                            imageUrl: item.item.image,
                             height: 56,
                             width: 56,
                             fit: BoxFit.cover,
@@ -277,7 +284,7 @@ class _CartSheetState extends State<CartSheet> {
                 children: [
                   const Text("Pay", style: TextStyle(color: Colors.white)),
                   Text(
-                    "24 min  •  \${(cart.totalPrice + delivery).toStringAsFixed(0)}",
+                    "24 min  •  \$${(cart.totalPrice + delivery).toStringAsFixed(0)}",
                     style: const TextStyle(color: Colors.white),
                   ),
                 ],

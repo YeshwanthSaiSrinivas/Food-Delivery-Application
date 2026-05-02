@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/item_model.dart';
 import '../providers/cart_provider.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 
 class ItemDetailSheet extends StatefulWidget {
   final Item item;
@@ -48,7 +49,18 @@ class _ItemDetailSheetState extends State<ItemDetailSheet> {
                 aspectRatio: 1.5,
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(20),
-                  child: Image.network(item.image, fit: BoxFit.cover),
+                  child: CachedNetworkImage(
+                    imageUrl: item.image,
+                    fit: BoxFit.cover,
+                    placeholder: (context, url) => Container(
+                      color: Colors.grey.shade200,
+                      child: const Center(child: CircularProgressIndicator()),
+                    ),
+                    errorWidget: (context, url, error) => Container(
+                      color: Colors.grey.shade200,
+                      child: const Center(child: Icon(Icons.error)),
+                    ),
+                  ),
                 ),
               ),
             ),

@@ -4,7 +4,8 @@ final List<Map<String, dynamic>> data = [
     "name": "Chicken Biryani",
     "description":
         "Aromatic basmati rice cooked with tender chicken and spices.",
-    "image": "https://picsum.photos/seed/biryani/500/500",
+    "image":
+        "https://plus.unsplash.com/premium_photo-1694141252774-c937d97641da?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Biryani",
     "price": 220,
     "isPromoted": true,
@@ -20,7 +21,8 @@ final List<Map<String, dynamic>> data = [
     "id": "2",
     "name": "Margherita Pizza",
     "description": "Classic Italian pizza with tomato, mozzarella & basil.",
-    "image": "https://picsum.photos/seed/pizza/500/500",
+    "image":
+        "https://images.unsplash.com/photo-1655673654158-9f7285b7d1ea?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Pizza",
     "price": 180,
     "isPromoted": true,
@@ -52,7 +54,8 @@ final List<Map<String, dynamic>> data = [
     "id": "4",
     "name": "Caesar Salad",
     "description": "Fresh lettuce, parmesan cheese and creamy dressing.",
-    "image": "https://picsum.photos/seed/caesarsalad/500/500",
+    "image":
+        "https://images.unsplash.com/photo-1633368475182-7c4773552630?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Salad",
     "price": 160,
     "isPromoted": false,
@@ -68,7 +71,8 @@ final List<Map<String, dynamic>> data = [
     "id": "5",
     "name": "Pepperoni Pizza",
     "description": "Loaded with spicy pepperoni and cheese.",
-    "image": "https://picsum.photos/seed/pepperoni/500/500",
+    "image":
+        "https://images.unsplash.com/photo-1628840042765-356cda07504e?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Pizza",
     "price": 220,
     "isPromoted": false,
@@ -84,7 +88,8 @@ final List<Map<String, dynamic>> data = [
     "id": "6",
     "name": "Veg Burger",
     "description": "Crispy veggie patty with fresh buns.",
-    "image": "https://picsum.photos/seed/burger/500/500",
+    "image":
+        "https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Snacks",
     "price": 120,
     "isPromoted": false,
@@ -100,7 +105,8 @@ final List<Map<String, dynamic>> data = [
     "id": "7",
     "name": "French Fries",
     "description": "Crispy golden fried potato sticks.",
-    "image": "https://picsum.photos/seed/fries/500/500",
+    "image":
+        "https://images.unsplash.com/photo-1661081090290-9b66fd49d882?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Snacks",
     "price": 90,
     "isPromoted": false,
@@ -116,7 +122,8 @@ final List<Map<String, dynamic>> data = [
     "id": "8",
     "name": "Cold Coffee",
     "description": "Chilled coffee with ice cream and chocolate.",
-    "image": "https://picsum.photos/seed/coffee/500/500",
+    "image":
+        "https://images.unsplash.com/photo-1599937577325-e38f27f010db?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Beverages",
     "price": 140,
     "isPromoted": false,
@@ -132,7 +139,8 @@ final List<Map<String, dynamic>> data = [
     "id": "9",
     "name": "Mango Lassi",
     "description": "Sweet mango yogurt drink.",
-    "image": "https://picsum.photos/seed/lassi/500/500",
+    "image":
+        "https://images.unsplash.com/photo-1719239948819-0afeced16184?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Beverages",
     "price": 100,
     "isPromoted": false,
@@ -148,7 +156,8 @@ final List<Map<String, dynamic>> data = [
     "id": "10",
     "name": "Sushi Platter",
     "description": "Assorted Japanese sushi rolls.",
-    "image": "https://picsum.photos/seed/sushi/500/500",
+    "image":
+        "https://images.unsplash.com/photo-1617196034738-26c5f7c977ce?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "International",
     "price": 350,
     "isPromoted": true,

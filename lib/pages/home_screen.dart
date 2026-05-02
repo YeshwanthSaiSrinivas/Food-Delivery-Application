@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/widgets/cart_sheet.dart';
 import 'package:provider/provider.dart';
@@ -161,7 +162,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
                               image: DecorationImage(
-                                image: NetworkImage(item.image),
+                                image: CachedNetworkImageProvider(item.image),
                                 fit: BoxFit.cover,
                               ),
                             ),
@@ -273,8 +274,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       children: [
                         ClipRRect(
                           borderRadius: BorderRadius.circular(12),
-                          child: Image.network(
-                            item.image,
+                          child: CachedNetworkImage(
+                            imageUrl: item.image,
                             height: 70,
                             width: 70,
                             fit: BoxFit.cover,
